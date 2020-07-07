@@ -31,7 +31,7 @@ if option == 1:
     if option == 1:
             i = 1
             added = []
-            print('\nKeep entering number and enter any non numerical value to grt the result\n')
+            print('\nKeep entering number and enter any non numerical value to get the result\n')
             while True:
                 try:
                     a = int(input("Enter the number " + str(i) + ': '))
@@ -57,7 +57,7 @@ if option == 1:
                     break
 
     elif option == 3:
-            print('\nKeep entering number and enter any non numerical value to grt the result\n')
+            print('\nKeep entering number and enter any non numerical value to get the result\n')
             while True:
                 try:
                     mul = int(input("Enter the number " + str(i) + ': '))
