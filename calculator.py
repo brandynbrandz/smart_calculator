@@ -22,7 +22,7 @@ if option == 1:
                                '3. Multiplication' + '\n' + ' ' * len('select one: ') +
                                '4. Division' + '\n' + ' ' * len('select one: ') +
                                '5. Exit -->'))
-        except SyntaxError:
+        except:
             print('\nERROR: Please enter a serial number\n')
             continue
         else:
